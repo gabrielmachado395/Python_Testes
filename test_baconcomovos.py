@@ -66,5 +66,5 @@ class TestBaconComOvos(unittest.TestCase):
                     msg=f'"{entrada}" não retornou "{saida}"'  
                 )
         
-            
-unittest.main(verbosity=2)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
